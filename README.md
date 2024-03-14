@@ -111,6 +111,8 @@ print(y-1911)
 
 ### A05 Problem 妳那裡現在幾點了？
 > [!CAUTION]
+> ```gherkin=
+> ```
 >尚未解題
 
 
