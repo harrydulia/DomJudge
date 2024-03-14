@@ -1,4 +1,4 @@
-# NTUB_DOMJudge 
+# NTUB_DOMJudge
 <img src="https://hackmd.io/_uploads/SkhuNdgC6.png" alt="image" width="auto" height="100px">
 
 ![Static Badge](https://img.shields.io/badge/python%203--a?style=flat&logo=python&logoColor=white&color=4FCA21) 
@@ -12,7 +12,7 @@
 
 ## :pushpin: Table of Contents
 
-- [NTUB\_DOMJudge {:height="10" width="10"}](#ntub_domjudge-height10-width10)
+- [NTUB\_DOMJudge](#ntub_domjudge-height10-width10)
   - [:pushpin: Table of Contents](#pushpin-table-of-contents)
   - [:pencil:Score](#pencilscore)
   - [題目詳解](#題目詳解)
