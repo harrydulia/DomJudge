@@ -1,4 +1,5 @@
-# NTUB_DOMJudge ![DOMjudgelogo](https://hackmd.io/_uploads/SkhuNdgC6.png =35x)
+# NTUB_DOMJudge [![DOMjudgelogo](https://hackmd.io/_uploads/SkhuNdgC6.png)]([链接](https://hackmd.io/_uploads/SkhuNdgC6.png)){:height="10" width="10"}
+
 
 ![Static Badge](https://img.shields.io/badge/python%203--a?style=flat&logo=python&logoColor=white&color=4FCA21) 
 ![Static Badge](https://img.shields.io/badge/windows%2011--any?style=flat&logo=windows11&color=0074CD) ![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
@@ -11,7 +12,7 @@
 
 ## :pushpin: Table of Contents
 
-- [NTUB\_DOMJudge !\[DOMjudgelogo\](https://hackmd.io/\_uploads/SkhuNdgC6.png =35x)](#ntub_domjudge-domjudgelogohttpshackmdio_uploadsskhundgc6png-35x)
+- [NTUB\_DOMJudge {:height="10" width="10"}](#ntub_domjudge-height10-width10)
   - [:pushpin: Table of Contents](#pushpin-table-of-contents)
   - [:pencil:Score](#pencilscore)
   - [題目詳解](#題目詳解)
