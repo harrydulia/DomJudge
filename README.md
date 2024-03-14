@@ -84,30 +84,30 @@ a,b = map (int,input().split())
 sum= a+b
 print(sum)
 ```
->  [name=HaaryDulia]
->  
+>  :bust_in_silhouette: HaaryDulia
+
 ### A02B Problem 兩數有權重相加(單列)
 ```gherkin=
 a,b = map (int,input().split())
 sum= 4*a+6*b
 print(sum)
 ```
->  [name=HaaryDulia]
->  
+>  :bust_in_silhouette: HaaryDulia
+
 ### A03 Problem Time Limit: 1 Second
 ```gherkin=
 a = int(input())
 sum= a^1 
 print (sum)
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### A04 Problem 民國年份
 ```gherkin=
 y=int(input())
 print(y-1911)
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### A05 Problem 妳那裡現在幾點了？
 > [!CAUTION]
@@ -116,7 +116,7 @@ print(y-1911)
 
 ```
 >尚未解題
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 
 ### A06 Problem 糟糕，我發燒了！
@@ -125,7 +125,7 @@ f = float(input())
 c= float(5/9*(f-32))
 print ('%.3f'%c)
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### A07 Problem 分組報告
 > [!TIP]
@@ -134,7 +134,7 @@ print ('%.3f'%c)
 n = int(input())
 print((n - 1) // 3 + 1) #//取整數
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### A08 Problem 買鉛筆
 > [!TIP]
@@ -142,25 +142,25 @@ print((n - 1) // 3 + 1) #//取整數
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B01 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B02 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B03 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B04 Problem ㄑㄧˊ數？
 > [!TIP]
@@ -168,46 +168,45 @@ print((n - 1) // 3 + 1) #//取整數
 ```gherkin=
 print("1" if int(input())%2 else "0")
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B05 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B06 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B07 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B08 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
-
+>  :bust_in_silhouette: HaaryDulia
 ### B09 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B10 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### B11 Problem 
 ```gherkin=
 
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
