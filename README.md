@@ -2,17 +2,16 @@
 ![Static Badge](https://img.shields.io/badge/python%203--a?style=flat&logo=python&logoColor=white&color=4FCA21) 
 ![Static Badge](https://img.shields.io/badge/windows%2011--any?style=flat&logo=windows11&color=0074CD) ![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
 
+> [!NOTE]  
+> **練習區**
+> https://onlinejudge.ntub.edu.tw/team
+>https://shields.io/badges/ansible-role
 
 
-:::info
-:bulb: 練習區 
-https://onlinejudge.ntub.edu.tw/team
-https://shields.io/badges/ansible-role
-:::
-## :speaking_head_in_silhouette: Table of Contents
+## :pushpin: Table of Contents
 
 - [NTUB\_DOMJudge](#ntub_domjudge)
-  - [:speaking\_head\_in\_silhouette: Table of Contents](#speaking_head_in_silhouette-table-of-contents)
+  - [:pushpin: Table of Contents](#pushpin-table-of-contents)
   - [:pencil:Score](#pencilscore)
   - [題目詳解](#題目詳解)
     - [A01 Problem 哈囉](#a01-problem-哈囉)
@@ -38,25 +37,23 @@ https://shields.io/badges/ansible-role
 
 
 ## :pencil:Score
-
-:::success
-記分板 
-:::
+> [!NOTE]  
+> **記分板 **
 
 |    **Item**   	|          **Score**         	|                           **Result**                 	|
 |:-----------------:	|:-------------------------:	|:-----------------------------------------------:	|
-|   A01  	            | 319 	            |❌❌✅|
-|   A02A               	| 302               |✅|
-|   A02B    	        | 331      			|✅|
-|   A03             	|     345     	    |✅|
-|   A04                	|       406       	|✅|
-|   A05                	|       	       	|  |
-|   A06                	|       435       	|✅|
-|   A07                	|       447         |✅|
-|   A08      	        |       655         |✅|
-|   B01                	|       663         |✅| 	
-|   B02                	|       673         |✅| 	
-|   B03                	|       682         |✅| 
+|   A01  	            | 319 	                        |❌❌✅|
+|   A02A               	| 302                           |✅|
+|   A02B    	        | 331      			            |✅|
+|   A03             	|     345     	                |✅|
+|   A04                	|       406       	            |✅|
+|   A05                	|       	       	            |  |
+|   A06                	|       435       	            |✅|
+|   A07                	|       447                     |✅|
+|   A08      	        |       655                     |✅|
+|   B01                	|       663                     |✅| 	
+|   B02                	|       673                     |✅| 	
+|   B03                	|       682                     |✅| 
 |   B04                	|               	|      	   |
 |   B05                	|                   |      	   |        	
 |   B06 	            |                  	|      	   |
@@ -111,12 +108,12 @@ print(y-1911)
 >  [name=HaaryDulia]
 
 ### A05 Problem 妳那裡現在幾點了？
-:::danger
-尚未解題
+> [!CAUTION]
+
 ```gherkin=
 
 ```
-:::
+>尚未解題
 >  [name=HaaryDulia]
 
 
@@ -129,9 +126,8 @@ print ('%.3f'%c)
 >  [name=HaaryDulia]
 
 ### A07 Problem 分組報告
-:::info
-:bulb: 如何不使用if else
-:::
+> [!TIP]
+> 如何不使用if else
 ```gherkin=
 n = int(input())
 print((n - 1) // 3 + 1) #//取整數
@@ -139,9 +135,8 @@ print((n - 1) // 3 + 1) #//取整數
 >  [name=HaaryDulia]
 
 ### A08 Problem 買鉛筆
-:::info
-:bulb: 如何不使用if else
-:::
+> [!TIP]
+> 如何不使用if else
 ```gherkin=
 
 ```
@@ -166,9 +161,8 @@ print((n - 1) // 3 + 1) #//取整數
 >  [name=HaaryDulia]
 
 ### B04 Problem ㄑㄧˊ數？
-:::info
-:bulb: 一行解決
-:::
+> [!TIP]
+> 如何不使用if else
 ```gherkin=
 print("1" if int(input())%2 else "0")
 ```
