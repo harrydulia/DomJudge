@@ -1,4 +1,4 @@
-# NTUB_DOMJudge ![DOMjudgelogo](.\DOMjudgelogo.png)
+# NTUB_DOMJudge ![DOMjudgelogo](https://hackmd.io/_uploads/SkhuNdgC6.png =35x)
 
 ![Static Badge](https://img.shields.io/badge/python%203--a?style=flat&logo=python&logoColor=white&color=4FCA21) 
 ![Static Badge](https://img.shields.io/badge/windows%2011--any?style=flat&logo=windows11&color=0074CD) ![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
@@ -11,7 +11,7 @@
 
 ## :pushpin: Table of Contents
 
-- [NTUB\_DOMJudge ](#ntub_domjudge-)
+- [NTUB\_DOMJudge !\[DOMjudgelogo\](https://hackmd.io/\_uploads/SkhuNdgC6.png =35x)](#ntub_domjudge-domjudgelogohttpshackmdio_uploadsskhundgc6png-35x)
   - [:pushpin: Table of Contents](#pushpin-table-of-contents)
   - [:pencil:Score](#pencilscore)
   - [題目詳解](#題目詳解)
@@ -73,7 +73,7 @@
 a = input()
 print("hello, "+ a) characters
 ```
->  [name=HaaryDulia]
+>  :bust_in_silhouette: HaaryDulia
 
 ### A02A Problem 簡易加法
 ---
