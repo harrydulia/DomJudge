@@ -1,4 +1,5 @@
-# NTUB_DOMJudge
+# NTUB_DOMJudge ![DOMjudgelogo](.\DOMjudgelogo.png)
+
 ![Static Badge](https://img.shields.io/badge/python%203--a?style=flat&logo=python&logoColor=white&color=4FCA21) 
 ![Static Badge](https://img.shields.io/badge/windows%2011--any?style=flat&logo=windows11&color=0074CD) ![build](https://img.shields.io/appveyor/ci/:user/:repo.svg)
 
@@ -10,7 +11,7 @@
 
 ## :pushpin: Table of Contents
 
-- [NTUB\_DOMJudge](#ntub_domjudge)
+- [NTUB\_DOMJudge ](#ntub_domjudge-)
   - [:pushpin: Table of Contents](#pushpin-table-of-contents)
   - [:pencil:Score](#pencilscore)
   - [題目詳解](#題目詳解)
@@ -38,7 +39,7 @@
 
 ## :pencil:Score
 > [!NOTE]  
-> **記分板 **
+> **記分板**
 
 |    **Item**   	|          **Score**         	|                           **Result**                 	|
 |:-----------------:	|:-------------------------:	|:-----------------------------------------------:	|
