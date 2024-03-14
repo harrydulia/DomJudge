@@ -15,7 +15,7 @@
 - [NTUB\_DOMJudge](#ntub_domjudge)
   - [:pushpin: Table of Contents](#pushpin-table-of-contents)
   - [:pencil:Score](#pencilscore)
-  - [==題目詳解==](#題目詳解)
+  - [題目詳解](#題目詳解)
     - [A01 Problem 哈囉](#a01-problem-哈囉)
     - [A02A Problem 簡易加法](#a02a-problem-簡易加法)
     - [A02B Problem 兩數有權重相加(單列)](#a02b-problem-兩數有權重相加單列)
@@ -65,7 +65,7 @@
 |   B10                	|                   |      	   |        	
 |   B11                	|                   |      	   |       	
 
-##    ==題目詳解==
+##    題目詳解
 
 ### A01 Problem 哈囉
 ---
