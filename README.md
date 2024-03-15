@@ -110,11 +110,12 @@ print(y-1911)
 >  :bust_in_silhouette: HaaryDulia
 
 ### A05 Problem 妳那裡現在幾點了？
-> [!CAUTION]
-> ```gherkin=
->尚未解題
-> ```
->
+<!-- > [!CAUTION] -->
+ ```gherkin=
+times = int(input())
+print((24+times-15)%24)
+ ```
+
 
 
 >  :bust_in_silhouette: HaaryDulia
