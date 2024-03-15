@@ -29,13 +29,13 @@
     - [B02 Problem](#b02-problem)
     - [B03 Problem](#b03-problem)
     - [B04 Problem ㄑㄧˊ數？](#b04-problem-ㄑㄧˊ數)
-    - [B05 Problem](#b05-problem)
-    - [B06 Problem](#b06-problem)
-    - [B07 Problem](#b07-problem)
-    - [B08 Problem](#b08-problem)
+    - [B05 Problem 三人行必有我師](#b05-problem-三人行必有我師)
+    - [B06 Problem 格瑞哥里的煩惱(單行版)](#b06-problem-格瑞哥里的煩惱單行版)
+    - [B07 Problem 該減肥了！](#b07-problem-該減肥了)
+    - [B08 Problem 剪刀石頭布單行版](#b08-problem-剪刀石頭布單行版)
     - [B09 Problem](#b09-problem)
-    - [B10 Problem](#b10-problem)
-    - [B11 Problem](#b11-problem)
+    - [B10 Problem hh:mm hh:mm](#b10-problem-hhmm-hhmm)
+    - [B11 Problem 上學去吧！](#b11-problem-上學去吧)
 
 
 ## :pencil:Score
@@ -44,10 +44,10 @@
 
 |    **Item**   	|          **Score**         	|                           **Result**                 	|
 |:-----------------:	|:-------------------------:	|:-----------------------------------------------:	|
-|   A01  	            | 319 	                        |❌❌✅|
-|   A02A               	| 302                           |✅|
-|   A02B    	        | 331      			            |✅|
-|   A03             	|     345     	                |✅|
+|   A01  	            |       319 	                |❌❌✅|
+|   A02A               	|       302                     |✅|
+|   A02B    	        |       331      			    |✅|
+|   A03             	|       345     	            |✅|
 |   A04                	|       406       	            |✅|
 |   A05                	|       	       	            |  |
 |   A06                	|       435       	            |✅|
@@ -56,9 +56,9 @@
 |   B01                	|       663                     |✅| 	
 |   B02                	|       673                     |✅| 	
 |   B03                	|       682                     |✅| 
-|   B04                	|               	|      	   |
-|   B05                	|                   |      	   |        	
-|   B06 	            |                  	|      	   |
+|   B04                	|       1897                	|✅|
+|   B05                	|       3151                   	|✅| 
+|   B06 	            |       3254           	        |✅| 
 |   B07                	|                 	|      	   |
 |   B08               	|                  	|      	   |
 |   B09                	|                   |      	   | 	
@@ -147,19 +147,23 @@ print((n - 1) // 3 + 1) #//取整數
 
 ### B01 Problem 
 ```gherkin=
-
+m,d = map(int,(input().split())) #m月d日
+S=(m*2+d)%3
+print(S) 
 ```
 >  :bust_in_silhouette: HaaryDulia
 
 ### B02 Problem 
 ```gherkin=
-
+n = int(input())
+print((n > 0) + (-(n < 0)))
 ```
 >  :bust_in_silhouette: HaaryDulia
 
 ### B03 Problem 
 ```gherkin=
-
+times = int(input())
+print((85-times)%60)
 ```
 >  :bust_in_silhouette: HaaryDulia
 
@@ -171,25 +175,31 @@ print("1" if int(input())%2 else "0")
 ```
 >  :bust_in_silhouette: HaaryDulia
 
-### B05 Problem 
+### B05 Problem 三人行必有我師
+```gherkin=
+a,b,c = map(int,(input().split())) #abc代表三個數字
+lists = [a,b,c]
+nmax = max(lists)
+print(nmax)
+```
+>  :bust_in_silhouette: HaaryDulia
+
+### B06 Problem 格瑞哥里的煩惱(單行版)
+```gherkin=
+year = int(input())
+s = "a leap year" if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0) else "a normal year"
+#閏年的條件要符合可以整除4且不會被100整除或可以被400整除，條件不符合時則進入else
+print(s)
+```
+>  :bust_in_silhouette: HaaryDulia
+
+### B07 Problem 該減肥了！
 ```gherkin=
 
 ```
 >  :bust_in_silhouette: HaaryDulia
 
-### B06 Problem 
-```gherkin=
-
-```
->  :bust_in_silhouette: HaaryDulia
-
-### B07 Problem 
-```gherkin=
-
-```
->  :bust_in_silhouette: HaaryDulia
-
-### B08 Problem 
+### B08 Problem 剪刀石頭布單行版
 ```gherkin=
 
 ```
@@ -200,13 +210,13 @@ print("1" if int(input())%2 else "0")
 ```
 >  :bust_in_silhouette: HaaryDulia
 
-### B10 Problem 
+### B10 Problem hh:mm hh:mm
 ```gherkin=
 
 ```
 >  :bust_in_silhouette: HaaryDulia
 
-### B11 Problem 
+### B11 Problem 上學去吧！
 ```gherkin=
 
 ```
