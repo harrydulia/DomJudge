@@ -72,7 +72,7 @@
 
 ```gherkin=
 a = input()
-print("hello, "+ a) characters
+print("hello, "+ a)
 ```
 >  :bust_in_silhouette: HaaryDulia
 
