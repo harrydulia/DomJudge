@@ -33,7 +33,7 @@
     - [B06 Problem 格瑞哥里的煩惱(單行版)](#b06-problem-格瑞哥里的煩惱單行版)
     - [B07 Problem 該減肥了！](#b07-problem-該減肥了)
     - [B08 Problem 剪刀石頭布單行版](#b08-problem-剪刀石頭布單行版)
-    - [B09 Problem](#b09-problem)
+    - [B09 Problem 四數有權重的相加後再算費波那契數](#b09-problem-四數有權重的相加後再算費波那契數)
     - [B10 Problem hh:mm hh:mm](#b10-problem-hhmm-hhmm)
     - [B11 Problem 上學去吧！](#b11-problem-上學去吧)
 
@@ -59,8 +59,8 @@
 |   B04                	|       1897                	|✅|
 |   B05                	|       3151                   	|✅| 
 |   B06 	            |       3254           	        |✅| 
-|   B07                	|                 	|      	   |
-|   B08               	|                  	|      	   |
+|   B07                	|       8765          	|   ✅   	   |
+|   B08               	|   8798               	|      	❌❌✅  |
 |   B09                	|                   |      	   | 	
 |   B10                	|                   |      	   |        	
 |   B11                	|                   |      	   |       	
@@ -197,16 +197,27 @@ print(s)
 
 ### B07 Problem 該減肥了！
 ```gherkin=
-
+weight = int(input())
+print(weight - 1 if weight > 50 else weight) 
 ```
 >  :bust_in_silhouette: HaaryDulia
 
 ### B08 Problem 剪刀石頭布單行版
 ```gherkin=
+player1,player2 = map (str,input("請輸入兩個[Y]剪刀[O]石頭[X]布，兩字間以一空格間隔：").split())
+#[Y]剪刀[O]石頭[X]布和玩家2出的拳：[Y]剪刀[O]石頭[X]布
 
+if player1 == player2:
+    print("0")
+    exit() 
+
+if (player1 == 'Y' and player2 == 'X') or (player1 == 'O' and player2 == 'Y') or (player1 == 'X' and player2 == 'O'):
+    print("1")
+else:
+    print("2")
 ```
 >  :bust_in_silhouette: HaaryDulia
-### B09 Problem 
+### B09 Problem 四數有權重的相加後再算費波那契數
 ```gherkin=
 
 ```
