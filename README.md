@@ -87,6 +87,7 @@ print(sum)
 >  :bust_in_silhouette: HaaryDulia
 
 ### A02B Problem 兩數有權重相加(單列)
+---
 ```gherkin=
 a,b = map (int,input().split())
 sum= 4*a+6*b
@@ -95,6 +96,7 @@ print(sum)
 >  :bust_in_silhouette: HaaryDulia
 
 ### A03 Problem Time Limit: 1 Second
+---
 ```gherkin=
 a = int(input())
 sum= a^1 
@@ -103,6 +105,7 @@ print (sum)
 >  :bust_in_silhouette: HaaryDulia
 
 ### A04 Problem 民國年份
+---
 ```gherkin=
 y=int(input())
 print(y-1911)
@@ -110,6 +113,7 @@ print(y-1911)
 >  :bust_in_silhouette: HaaryDulia
 
 ### A05 Problem 妳那裡現在幾點了？
+---
 <!-- > [!CAUTION] -->
  ```gherkin=
 times = int(input())
@@ -122,6 +126,7 @@ print((24+times-15)%24)
 
 
 ### A06 Problem 糟糕，我發燒了！
+---
 ```gherkin=
 f = float(input())
 c= float(5/9*(f-32))
@@ -130,6 +135,7 @@ print ('%.3f'%c)
 >  :bust_in_silhouette: HaaryDulia
 
 ### A07 Problem 分組報告
+---
 > [!TIP]
 > 如何不使用if else
 ```gherkin=
@@ -139,6 +145,7 @@ print((n - 1) // 3 + 1) #//取整數
 >  :bust_in_silhouette: HaaryDulia
 
 ### A08 Problem 買鉛筆
+---
 > [!TIP]
 > 如何不使用if else
 ```gherkin=
@@ -148,6 +155,7 @@ print(pen//12*50+pen%12*5) #能整除一打就直接*50 不能就將餘數*單�
 >  :bust_in_silhouette: HaaryDulia
 
 ### B01 Problem 
+---
 ```gherkin=
 m,d = map(int,(input().split())) #m月d日
 S=(m*2+d)%3
@@ -156,6 +164,7 @@ print(S)
 >  :bust_in_silhouette: HaaryDulia
 
 ### B02 Problem 
+---
 ```gherkin=
 n = int(input())
 print((n > 0) + (-(n < 0)))
@@ -163,6 +172,7 @@ print((n > 0) + (-(n < 0)))
 >  :bust_in_silhouette: HaaryDulia
 
 ### B03 Problem 
+---
 ```gherkin=
 times = int(input())
 print((85-times)%60)
@@ -170,6 +180,7 @@ print((85-times)%60)
 >  :bust_in_silhouette: HaaryDulia
 
 ### B04 Problem ㄑㄧˊ數？
+---
 > [!TIP]
 > 如何不使用if else
 ```gherkin=
@@ -178,6 +189,7 @@ print("1" if int(input())%2 else "0")
 >  :bust_in_silhouette: HaaryDulia
 
 ### B05 Problem 三人行必有我師
+---
 ```gherkin=
 a,b,c = map(int,(input().split())) #abc代表三個數字
 lists = [a,b,c]
@@ -187,6 +199,7 @@ print(nmax)
 >  :bust_in_silhouette: HaaryDulia
 
 ### B06 Problem 格瑞哥里的煩惱(單行版)
+---
 ```gherkin=
 year = int(input())
 s = "a leap year" if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0) else "a normal year"
@@ -196,6 +209,7 @@ print(s)
 >  :bust_in_silhouette: HaaryDulia
 
 ### B07 Problem 該減肥了！
+---
 ```gherkin=
 weight = int(input())
 print(weight - 1 if weight > 50 else weight) 
@@ -203,6 +217,7 @@ print(weight - 1 if weight > 50 else weight)
 >  :bust_in_silhouette: HaaryDulia
 
 ### B08 Problem 剪刀石頭布單行版
+---
 ```gherkin=
 player1,player2 = map (str,input("請輸入兩個[Y]剪刀[O]石頭[X]布，兩字間以一空格間隔：").split())
 #[Y]剪刀[O]石頭[X]布和玩家2出的拳：[Y]剪刀[O]石頭[X]布
@@ -218,18 +233,21 @@ else:
 ```
 >  :bust_in_silhouette: HaaryDulia
 ### B09 Problem 四數有權重的相加後再算費波那契數
+---
 ```gherkin=
 
 ```
 >  :bust_in_silhouette: HaaryDulia
 
 ### B10 Problem hh:mm hh:mm
+---
 ```gherkin=
 
 ```
 >  :bust_in_silhouette: HaaryDulia
 
 ### B11 Problem 上學去吧！
+---
 ```gherkin=
 h, m = map(int, input().split())
 
