@@ -1,16 +1,15 @@
 a, b, c, d = map(int, input().split())
 sum_value = 56 * a + 24 * b + 14 * c + 6 * d
-print("Sum:", sum_value)
+print(sum_value)
 
-n = 10
-num1 = 0
-num2 = 1
-next_number = num2
-count = 1
-
-while count <= n:
-    print(next_number, end=" ")
-    count += 1
-    num1, num2 = num2, next_number
-    next_number = num1 + num2
-print()
+for i in range(sum_value):           # 使用 for 迴圈，重複指定的數字
+    if i==0:                 # 如果 i 等於 0，a 為 0
+        a = 0
+    elif i==1:               # 如果 i 等於 1，a 為 1
+        a = 1
+        arr = [0, 1]         # 將串列設定為 [0, 1]
+    else:                    # 如果 i 大於 1
+        a = arr[0] + arr[1]  # a 等於串列的兩個數字相加
+        del arr[0]           # 刪除串列的第一個項目
+        arr.append(a)        # 將 a 加入串列成為第二個項目
+    print(a, end=',')        # 0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181

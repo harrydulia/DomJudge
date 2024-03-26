@@ -63,7 +63,7 @@
 |   B08               	|   8798               	|      	❌❌✅  |
 |   B09                	|                   |      	   | 	
 |   B10                	|                   |      	   |        	
-|   B11                	|                   |      	   |       	
+|   B11                	|     ✅               |  18845    	   |       	
 
 ##    題目詳解
 
@@ -231,6 +231,8 @@ else:
 
 ### B11 Problem 上學去吧！
 ```gherkin=
+h, m = map(int, input().split())
 
+print("1" if 450<=(h*60+m)<1020 else "0")
 ```
 >  :bust_in_silhouette: HaaryDulia
